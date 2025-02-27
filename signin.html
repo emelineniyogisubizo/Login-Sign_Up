@@ -58,12 +58,22 @@
                 text-decoration: none;
                 color: black;
             }
-
+            body{
+             background-image: url(images/dark.png);
+            }
+            .shadowbox{
+            width: 15;
+            border: 1px solid #333;
+            box-shadow: 8px 8px 5px #444;
+            padding: 8px 12px;
+            background-color: white; 
+             }
         </style>
 </head>
 <body>
+    <div class="shadowbox">
     <form action="table.html" class="SignIn_form">
-       <p id="no account">Don't have an account?<a href="http://127.0.0.1:5501/index.html"><b>SignUp</b></a></p> 
+       <p id="no account">Don't have an account?<a href="index.html"><b>SignUp</b></a></p> 
        <h1 id="heading">Sign In</h1>
        <label for="email">Email</label>
        <br>
@@ -78,6 +88,6 @@
        <h2>Or SignUp With</h2>
        <img src="images/google-brands.svg" id="google"> <img src="images/facebook-brands.svg"id="facebook">
        </form>>
-    
+    </div>
 </body>
 </html>
